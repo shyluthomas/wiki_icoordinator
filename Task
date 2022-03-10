@@ -1,0 +1,39 @@
+Developement Enviorment setup
+
+Setup aws 
+    1.create ec2 instance
+    2.setup connectivity from local to ec2 instance
+    3.install all dependancy for the react app
+        1.Ngnix
+        2.node install
+        3.ngnix default path edit => To build folder for Rect app
+    4.Setup codecommit
+    5.setup code deploy
+
+
+Github setup
+    1.Create repo for icoordinator
+    2.github actions
+        1.create actions for branch creation
+        2.create the cicd pipeline
+
+
+React application
+
+    Folder architecture
+        Public
+        src
+            components
+            screens
+            constants
+            hooks
+            helpers
+            services
+            redux
+            styles
+            app.js
+        package.json
+        package.lock.json
+        .gitignore
+        .workflows
+        
