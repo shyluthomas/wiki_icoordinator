@@ -176,97 +176,127 @@ li a:hover:not(.active) {
   }
 }
 
-
-.container{
-  width:360px;
-  height:500px;
-  background:#fffbfb;
+/*login page*/
+.container {
+  width: 360px;
+  height: 500px;
+  background: #fffbfb;
   position: absolute;
-  border-radius:10px;
-  top:50%;
-  left:50%;
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
- 
   text-align: center;
 }
-.container h1{
-  font-size:35px;
-  margin-top:40px;
-  margin-bottom:30px;
+
+.container h1 {
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 30px;
 }
-.box{
-  width:260px;
-  height:40px;
-  background:#fffffffa;
-  border-radius:10px;
-  margin:10px auto;
+
+.box {
+  width: 260px;
+  height: 40px;
+  background: #fffffffa;
+  border-radius: 10px;
+  margin: 10px auto;
 }
-.btn{
-  font-family:'Montserrat', sans-serif;
-  width:260px;
-  height:40px;
-  background:#9254C8;
-  border-radius:10px;
-  margin:14px auto;
-  display:block;
-  font-size:16px;
-  border:none;
-  color:white;
-  cursor:pointer;
-  transition:0.4s all;
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  width: 260px;
+  height: 40px;
+  background: #9254C8;
+  border-radius: 10px;
+  margin: 14px auto;
+  display: block;
+  font-size: 16px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s all;
 }
-.btn:hover{
-  background:#ee2e58;
+
+.btn:hover {
+  background: #4d55c7;
 }
-.box input{
-  font-family:'Montserrat', sans-serif;
-  background:none;
-  border:none;
-  outline:none;
-  text-align:center;
-  width:90%;
-  line-height:37px;
-  font-size:16px;
-  color:rgb(128, 20, 20);
+
+.box input {
+  font-family: 'Montserrat', sans-serif;
+  background: none;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 90%;
+  line-height: 37px;
+  font-size: 16px;
+  color: rgb(128, 20, 20);
 }
-.b1{
-  display:block;
-  width:260px;
-  padding:20px 0;
-  text-decoration:none;
-  color:rgb(24, 5, 5);
-  text-align:center;
+
+.b1 {
+  display: block;
+  width: 260px;
+  padding: 20px 0;
+  text-decoration: none;
+  color: rgb(24, 5, 5);
+  text-align: center;
   margin: auto;
-  transition:0.4s all;
+  transition: 0.4s all;
 }
-.b2{
-  position:absolute;
-  bottom:133px;
-  left:50%;
-  transform:translateX(-50%);
-  width:260px;
-  padding:10px 0;
-  text-decoration:none;
-  text-align:center;
-  transition:0.4s all;
-  color:white;
+
+.b2 {
+  position: absolute;
+  bottom: 133px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 260px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.4s all;
+  color: white;
 }
-a:hover{
-  background:#00000040;
+
+a:hover {
+  background: #0f71e240;
 }
-.fab{
-  display:block;
-  margin:10px 20px 0px 20px;
+
+
+span {
+  color: rgb(24, 18, 18);
+  text-align: center;
+  font-size: 15px;
+
 }
-.fa-github{
-  color:black;
+
+.containerabout {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
-.fa-google{
-  color:#c41b1b;
+
+
+inputabout[type=kkk], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
-.fa-facebook-square{
-  color:#002fa6;
+
+inputabout[type=submit1] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.fab:hover{
-  cursor:pointer;
+
+input[type=submit1]:hover {
+  background-color: #5a94df;
 }
