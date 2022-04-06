@@ -176,6 +176,8 @@ li a:hover:not(.active) {
   }
 }
 
+
+
 /*login page*/
 .container {
   width: 360px;
@@ -195,15 +197,16 @@ li a:hover:not(.active) {
   margin-bottom: 30px;
 }
 
-.box {
+
+.container .box{
   width: 260px;
   height: 40px;
   background: #fffffffa;
   border-radius: 10px;
-  margin: 10px auto;
+  margin: 10px auto;  
 }
 
-.btn {
+.container .btn {
   font-family: 'Montserrat', sans-serif;
   width: 260px;
   height: 40px;
@@ -277,18 +280,9 @@ span {
 }
 
 
-inputabout[type=kkk], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
 
-inputabout[type=submit1] {
+
+.inputabout[type=submit1] {
   background-color: #04AA6D;
   color: white;
   padding: 12px 20px;
@@ -299,4 +293,20 @@ inputabout[type=submit1] {
 
 input[type=submit1]:hover {
   background-color: #5a94df;
+}
+.sidebar{
+  margin:0;
+  padding:0;
+  width:200px;
+  background-color: #5a94df;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+/*Sidebar link*/
+.sidebar a{
+  display:block;
+  color:black;
+  padding: 16px;
+  text-decoration: none;
 }
