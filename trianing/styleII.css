@@ -6,16 +6,15 @@ body {
     margin: 0px;
     font-family: 'segoe ui';
 }
-.wrap{
-   
-    display: flex;
-    position: relative;
-}
-.wrapper{
-    display: flex;
-    position: relative;
-}
+.wrap {
 
+    display: flex;
+    position: relative;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+}
 /*top bar*/
 .nav {
     height: 100px;
@@ -24,11 +23,11 @@ body {
     position: absolute;
 }
 
-.nav>.nav-header {
+.nav .nav-header {
     display: inline;
 }
 
-.nav>.nav-header>.nav-title {
+.nav .nav-header .nav-title {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px 10px 10px 10px;
@@ -40,13 +39,13 @@ body {
     font-family: fantasy;
 }
 
-.nav>.nav-links {
+.nav .nav-links {
     font-size: 15px;
     display: inline;
     float: right;
 }
 
-.nav>.nav-links>ul li a {
+.nav .nav-links ul li a {
 
     color: #fff;
     line-height: 40px;
@@ -56,52 +55,53 @@ body {
     text-decoration: none;
 }
 
-.nav>.nav-links>ul {
+.nav .nav-links ul {
     list-style: none;
     position: relative;
     padding: 0;
     margin-top: 5px;
 }
 
-.nav>.nav-links>ul {
+.nav .nav-links ul {
     list-style: none;
     position: relative;
     padding: 0;
     margin-top: 5px;
 }
 
-.nav>.nav-links>ul li {
+.nav .nav-links ul li {
     display: inline-block;
     background-color: #1177ca;
 }
 
-nav>.nav-links>ul li:hover {
+nav .nav-links ul li:hover {
     background-color: #0b65af;
     border-radius: 5px;
 }
 
 
 /* The side navigation menu */
-.sidebar {
-    margin-top: 100px;
-    padding: 0;
-    width: 300px;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-    margin-top: 100px;
-}
 
+
+.sidebar {
+    float: left;
+    width: 19%;
+    background-color: #f1f1f3;
+    height: 100%;
+    width: 255px;
+    padding-top: 60px;
+}
 /* Sidebar links */
 .sidebar a {
-    display: block;
-    color: black;
-    padding: 16px;
+    padding: 30px 44px 0px 20px;
     text-decoration: none;
+    font-size: 25px;
+    color: #180505;
+    display: block;
+    transition: 0.3s;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
 .sidebar a:hover {
     color: #4382f7;
 }
@@ -128,6 +128,7 @@ nav>.nav-links>ul li:hover {
 .nav-links .logo-img {
     width: 150px
 }
+
 /* flex for search*/
 .flex-container {
     display: flex;
@@ -154,15 +155,12 @@ nav>.nav-links>ul li:hover {
     border-radius: 50px;
     margin-top: 8px;
 }
-
-
 .nav-links .search {
     float: right;
     margin-top: 5px;
     padding: 10px 100px;
     border-radius: 15px;
 }
-
 .nav-links .search button {
     background-color: #0074D9;
     color: #0c0202;
@@ -173,12 +171,12 @@ nav>.nav-links>ul li:hover {
     border: none;
     cursor: pointer;
 }
-
 .nav-links .iconimg {
     border-radius: 50%;
-    width: 40px;
+    width: 60px;
     margin-top: 7px;
 }
+
 .nav-links .bell-iconimg {
     border-radius: 50%;
     width: 25px;
@@ -188,29 +186,23 @@ nav>.nav-links>ul li:hover {
     border-radius: 50%;
     width: 5px;
     margin-top: 0px;
-    
 }
-.wrapper .main_content{
-    width: 100%;
-    margin: left 10px ;
+.wrapper .main_content {
+    margin: left 10px;
 }
 
-.wrapper .main_content .header{
-padding: 50px;
-background: rgb(255, 255, 255);
-color: rgb(83, 17, 17);
-margin-top:100px;
-margin-left: 300px;
-font-weight: bold;
-font-size: x-large;
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-
+.wrapper .main_content .header {
+    padding: 100px;
+    background: rgb(255, 253, 253);
+    color: rgb(83, 17, 17);
+    margin-top: 30px;
+    margin-left: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
 }
-.wrapper .table
-{
+.wrapper .table {
     width: 100%;
-    margin: left 10px ; 
+    margin: left 10px;
 }
 /*paggination*/
 ul.pagination {
@@ -219,7 +211,9 @@ ul.pagination {
     margin: 0;
 }
 
-ul.pagination li {display: inline;}
+ul.pagination li {
+    display: inline;
+}
 
 ul.pagination li a {
     color: black;
@@ -235,67 +229,72 @@ ul.pagination li a.active {
     border-radius: 5px;
 }
 
-ul.pagination li a:hover:not(.active) {background-color: #ddd;
+ul.pagination li a:hover:not(.active) {
+    background-color: rgb(109, 117, 223);
+    float: left;
 }
 
 
 /*  table new */
 
-
-  
-  .table table{
-    width: 100%;
+.table table {
+    width: fit-content;
     display: table;
     background: #fff;
     border-radius: 1.0px;
-
-   }
-
-
-.table td, th {
-   padding: .75rem;
-   vertical-align: top;
-   border-top: 2px solid #dee2e6;
-   text-align: left;
-   font-size: 18px;
-   font-weight: 300;
 }
-.table table thead tr th{
-   font-weight: bold;
-   border-top: 0;
-   font-variant: all-petite-caps;
+
+.table td,
+th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 2px solid #dee2e6;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.table table thead tr th {
+    font-weight: bold;
+    border-top: 0;
+    font-variant: all-petite-caps;
 
 }
+
 tr th:first-child {
-     padding-left: 1.5px;
- }
-
-.table tbody tr:hover{
-   background: rgba(79, 79, 79, 0.2);
+    padding-left: 2.5px;
 }
 
-
-
-.table .ahref{
-    background-color: #0074D9;
+.table tbody tr:hover {
+    background: rgba(79, 79, 79, 0.2);
 }
- 
-th .usd{
-  margin:0;
-  color:rgba(79, 79, 79, 0.6);
+
+.table .ahref {
+    background-color: #1662a5;
 }
-.niv{
+
+/*to make email id in color*/
+th .usd {
+    margin: 0;
+    color: rgba(79, 79, 79, 0.6);
+}
+
+/* invitation  */
+.main_content .inv {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 10px 10px 10px;
-    font-size: 30px;
-    color: rgb(187, 27, 27);
-    font-weight: 550;
-    margin-top: 40px;
-    margin-left: 10px;
+    font-size: 15px;
+    color: rgb(29, 24, 24);
+    font-weight: 300;
 
-    
 }
 
+.main_content .inv .h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    float: right;
+}
+
+/* button */
 .button2 {
     background-color: #2b8edf;
     display: flex;
@@ -305,7 +304,16 @@ th .usd{
     font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
     border-radius: 6px;
     float: right;
- 
+
 }
-
-
+.sidebar .sideimg{
+    border-radius: 50%;
+    width: 75px;
+    margin-top: 75px;
+    margin-left: 15px;
+}
+ .proname{
+   margin-left: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+ }
