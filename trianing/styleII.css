@@ -19,7 +19,7 @@ body {
 }  */
 /*top bar*/
 .nav {
-    height: 100px;
+    height: 105px;
     width: 100%;
     background-color: #1177ca;
 
@@ -32,7 +32,7 @@ body {
 .nav .nav-header .nav-title {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px 10px 10px 10px;
+    padding: 0px 35px 20px 35px;
     font-size: 30px;
     color: rgb(0, 0, 0);
     font-weight: 550;
@@ -123,18 +123,19 @@ ul.breadcrumb {
     padding: 0;
     width: 200px;
     background-color: #f3f3f3;
-     color: #000;
-     height: 800px;
-     font-style: normal;
-     font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    height: 800px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 
   }
   
   .sidebar a {
-  
     color: rgb(0, 0, 0);
-    padding: 16px;
+    padding: 10px;
     text-decoration: none;
+    margin-left: -30px;
   }
    
   .sidebar a.active {
@@ -195,13 +196,13 @@ ul.breadcrumb {
     display: inline-block;
     font-size: 14px;
     border-radius: 50px;
-    margin-top: 8px;
+    margin-top: 23px;
 
 }
 
 .nav-links .search {
     float: right;
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 10px 100px;
     border-radius: 15px;
 }
@@ -220,13 +221,13 @@ ul.breadcrumb {
 .nav-links .iconimg {
     border-radius: 50%;
     width: 60px;
-    margin-top: 7px;
+    margin-top: 15px;
 }
 
 .nav-links .bell-iconimg {
     border-radius: 50%;
-    width: 25px;
-    margin-top: 15px;
+    width: 30px;
+    margin-top: 25px;
 }
 
 .nav-links .icodeimg {
@@ -238,14 +239,14 @@ ul.breadcrumb {
 .wrapper .main_content {
     margin: left 10px;
     display: inline-block;
-    width: 80%;
+    width: 85%;
 }
 
 .wrapper .main_content .header {
     /* padding: 100px; */
     background: rgb(255, 253, 253);
     color: rgb(20, 12, 12);
-
+    margin-top: 25px;
      margin-left: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -255,7 +256,6 @@ ul.breadcrumb {
 
 .wrapper .main_content .header .brd {
     /* padding: 100px; */
-
     color: rgb(102, 153, 230);
     /* margin-left: 275px; */
     font-family: Arial, Helvetica, sans-serif;
