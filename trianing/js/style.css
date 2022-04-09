@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'segoe ui';
+}
+
+/*top bar*/
+.nav {
+    
+        background-color:#e9ce39;
+        width: 100%;
+        height: 200px;
+        display: flex; 
+        align-content:space-around;
+      
+}
+/* flex for search*/
+.flex-container {
+    display: flex;
+    background-color: #fcde67;
+    border-radius: 15px;
+    align-content: space-between;
+}
+
+.flex-container>div {
+    background-color: #e4ad36;
+    margin: 10px;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px;
+
+}
+/* Used in this example to enable scrolling */
+ /*main*/
+.main {
+    padding: 26px;
+    margin-top: 150px;
+    margin-left: 200px;
+    
+  
+   
+}
+input[type=text], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=password], select {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=button] {
+    width: 80px;
+    background-color: #d38c2f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #c5ac3e;
+  }
+  /*footer*/
+  .footer{ 
+    margin-top: auto;
+    background-color: #093028;
+    padding: 20px;
+    width: 100%;
+  }
+  /* custom radio button */  
+.radio {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    height: 30px;  
+    width: 30px;  
+    background-color: lightgray;  
+    border-radius: 50%;  
+  }  
+  
