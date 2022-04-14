@@ -6,15 +6,16 @@
     <title>mouseover & mouseout</title>
     <script type="text/javascript">
         function setNewImage(){
-           document.getElementById("img1").src="D:\git\wiki_icoordinator\trianing\todo\images.png";
+           document.getElementById("img1").src="./images.png";
         }
         function setOldImage(){
-            document.getElementById("img1").src="D:\git\wiki_icoordinator\trianing\todo\download2.png";
+            document.getElementById("img1").src="./download2.png";
       
         }
     </script>
       </head>
       <body>
-        <img id="img1" onmouseover="setNewImage()" src="D:\git\wiki_icoordinator\trianing\todo\images.png">
+        <img id="img1" onmouseover="setNewImage()" src="./images.png"  onmouseleave="setOldImage()" src="./download2.png">
+        
       </body>
 </html>
