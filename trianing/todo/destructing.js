@@ -10,5 +10,8 @@ const employee = {
 
 };
 
-const name = employee.name;
+// const name = employee.name;
+// console.log(name);
+
+const { name ,age }= employee;
 console.log(name);
