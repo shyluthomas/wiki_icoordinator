@@ -1,0 +1,18 @@
+<html>
+
+<p>profileObj</p>
+<script>
+class Profile {   
+   constructor(firstName, lastName = '') { // class constructor
+      this.firstName = firstName;
+      this.lastName = lastName;     
+   }  
+    
+   getName() {       
+     console.log(`Name: ${this.firstName} ${this.lastName}`);    
+   } 
+}
+let profileObj = new Profile('Kavisha', 'Talsania');
+profileObj.getName(); 
+</script>
+</html>
