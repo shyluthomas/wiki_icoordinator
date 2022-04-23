@@ -1,6 +1,19 @@
-function hello(){
-    console.log("hello")
-    return 10
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+function game() {
+  const shoot = (a, b) => {
+    alert(b.type);
+		/*
+		'b' represents the React event that triggered the function.
+    In this case, the 'click' event
+		*/
+  }
+
+  return (
+    <button onClick={(event) => shoot("Goal!", event)}>Take the shot!</button>
+  );
 }
-val=hello()
-console.log(val);
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<game/>);

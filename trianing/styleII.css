@@ -13,10 +13,7 @@ body {
     position: relative;
 }
 
-/* .wrapper {
-    /* display: flex;
-    position: relative;
-}  */
+
 /*top bar*/
 .nav {
     height: 105px;
@@ -264,9 +261,7 @@ ul.breadcrumb {
     font-size: 15px;
 }
 
-hr.solid {
-    border-top: 3px solid #bbb;
-}
+
 
 .wrapper .table {
     width: 100%;
@@ -281,10 +276,6 @@ hr.solid {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
-
-
-
-
 /*paggination*/
 ul.pagination {
     display: inline-block;

@@ -82,14 +82,5 @@ input[type=text], select {
     padding: 20px;
     width: 100%;
   }
-  /* custom radio button */  
-.radio {  
-    position: absolute;  
-    top: 0;  
-    left: 0;  
-    height: 30px;  
-    width: 30px;  
-    background-color: lightgray;  
-    border-radius: 50%;  
-  }  
+
   
