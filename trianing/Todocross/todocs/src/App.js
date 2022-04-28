@@ -4,7 +4,12 @@ import { useState } from 'react'
 
 function App() {
   const [toDos, setToDos] = useState([])
-  const [toDosdelt,setToDodelt] = useState([])
+  //const [toDosdelt,setToDodelt] = useState([])
+  const setToDodelt = (todoDelete) => {
+      console.log(todoDelete);
+      //remove the element from todoarray
+      //setTodo 
+  }
   const [toDo, setToDo] = useState('')
   return (
 
@@ -43,7 +48,7 @@ function App() {
 
               </div>
               <div className="toDosdelt">
-                <i  onClick={()=> setToDodelt([...toDosdelt])}className="fas fa-times"></i> 
+                <i  onClick={() => {setToDodelt(obj.text)}} className="fas fa-times"></i> 
                 
               </div>
 
@@ -56,7 +61,7 @@ function App() {
 
         {toDos.map((obj) => {
           if (obj.status) {
-            return (<h1>{obj.text}</h1>)
+            return (<h1 key={1}>{obj.text}</h1>)
           }
           return null
         })}
