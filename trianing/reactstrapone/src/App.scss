@@ -1,0 +1,129 @@
+.App {
+  // text-align: center;
+  .Appbody{
+    display: flex;
+    height : 90vh;
+  }
+  .top-bar-main{
+    background-color: rgb(38, 101, 218);
+    display: flex;
+    height : 10vh;
+    padding : 2% 1%;
+    align-items: center;
+    justify-content: space-between;
+    .header-font-size-main{
+      font-weight: 700;
+      font-size: 1.5rem;
+      // line-height: 1.5px;
+    }
+    .top-bar-elmnt-right{
+      display: flex;
+      align-items: center;
+      gap : 5%;
+      width : 600px;
+    }
+  }
+  .sidebar-main{
+    min-width: 200px;
+    width : 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(241, 241, 236);
+
+    .sidebar-list{
+      list-style-type: none;
+    }
+    .sidebar-profile{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      margin-top: 20%;
+    }
+    .sidebar-navs{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 10%;
+      font-weight: 600;
+    }
+  }
+  .main-body{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding : 2%;
+    .main-body-container{
+      position: relative;
+      .modal-container{
+        position: absolute;
+        z-index: 100;
+        
+        width: 75vw;
+        height: 50vh;
+      }
+    }
+    .main-font{
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+    .breadcrumb-container{
+      background-color: rgb(241, 241, 236);
+      // background-color: yellow;
+      padding : 0.2%;
+      display: flex;
+      align-items: center;
+      margin-top: 1%;
+      color :rgb(38, 101, 218);
+      font-weight: 600;
+      .breadcrumbs{
+        margin-top: 0.7%;
+      }
+      .breadcrumbs-child + .breadcrumbs-child ::before{
+        content : '>'
+      }
+    }
+    .current-nav{
+      margin-top: 1%;
+      border: 3px solid rgb(241, 241, 236);
+      .font-navigation{
+        font-weight: 600;
+      }
+    }
+    .InviteBtn{
+      margin-top: 2.5%;
+      background-color: rgb(38, 101, 218);
+    }
+    .Invitebtn-container{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .table-container{
+      margin-top: 3%;
+    }
+  }
+
+  .modal-body{
+      padding: 3%;
+    background-color: rgb(252, 250, 250);
+    border-radius: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    .form-main{
+      margin-top: 1%;
+    }
+    .modal-top{
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+}
+
+/* .top-bar-main{
+  background-color: rgb(38, 101, 218);
+  display: flex;
+  padding : 3%;
+  align-items: center;
+  justify-content: space-between;
+} */
+
